@@ -2,6 +2,4 @@ langueje: ruby
 script:
   -cucumber
   -rspec
-  -bundle exec rspec
-  -bundle exec cucumber
-  -bundle install --jobs=3 --retry=3 --deployment
+  -rake
