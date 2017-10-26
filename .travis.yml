@@ -1,4 +1,1 @@
 langueje: ruby
-script:
-  -cucumber
-  -rspec
