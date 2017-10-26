@@ -1,6 +1,4 @@
 langueje: ruby
-rvm:
--  2.4.2-p198
 
 script: 
   - bundle exec rspec
