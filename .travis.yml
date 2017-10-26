@@ -1,4 +1,6 @@
 langueje: ruby
+rvm:
+  - 2.4.2-p198
 script:
   -rspec
   -cucumber
