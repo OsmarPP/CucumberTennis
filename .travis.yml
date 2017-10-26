@@ -2,3 +2,5 @@ langueje: ruby
 script:
   -cucumber
   -rspec
+  -bundler exec cucumber
+  -bundler exec rspec
