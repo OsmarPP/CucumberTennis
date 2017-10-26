@@ -2,4 +2,3 @@ langueje: ruby
 script:
   -cucumber
   -rspec
-  -rake
