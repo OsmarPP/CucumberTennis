@@ -1,1 +1,3 @@
 langueje: ruby
+script:
+  - bundle exec rake
