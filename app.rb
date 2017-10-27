@@ -1,5 +1,11 @@
 require 'sinatra'
+require './lib/jtennis'
+
 
 get '/' do
-  "Bienvenidos"
+  erb :bienvenida
+end
+
+get '/juego' do
+	erb :juego
 end
