@@ -8,7 +8,5 @@ Scenario:
 
 Scenario:
 	Given visito la pagina de incio
-	When escribo el nombre "Jugador1" en el campo "nombre1"
-	And escribo el nombre "Jugador2" en el campo "nombre2"
-	And preciono el boton "Jugar"
-	Then deberia ver "resultado 0 igual"
+	When preciono el boton "iniciar"
+	Then deberia visitar pagina de juego
