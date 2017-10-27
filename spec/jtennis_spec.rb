@@ -10,4 +10,8 @@ describe Jtennis do
 		expect(@partido.iniciar).to eq "0 vs 0"
 	end
 
+	it "jugador1 anota punto" do
+		expect(@partido.puntoj1).to eq "15 vs 0"
+	end
+
 end
