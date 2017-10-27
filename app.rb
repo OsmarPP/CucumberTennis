@@ -8,5 +8,6 @@ get '/' do
 end
 
 get '/juego' do
+	
 	erb :juego
 end
